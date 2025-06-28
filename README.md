@@ -18,10 +18,14 @@ app
 
 
 ### PIP
-`cd app && python -m venv venv && python -m pip install -r requirements.txt &&  .\.venv\Scripts\activate && python app/utils/proxy.py'`
+```bash
+cd app && python -m venv venv && python -m pip install -r requirements.txt &&  .\.venv\Scripts\activate && python app/utils/proxy.py'
+```
 
 ### uv
-`cd app && uv sync && .\.venv\Scripts\activate && uv run --script 'app/utils/proxy.py'`
+```bash
+cd app && uv sync && .\.venv\Scripts\activate && uv run --script 'app/utils/proxy.py'
+```
 
 feel free to modify it as you feel fit
 
